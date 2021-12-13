@@ -29,6 +29,10 @@ re-downloaded in order to locate PACKAGE."
 
 
 (setq package-enable-at-startup nil)
+;; disable because of elpa bug in emacs 27.1
+(setq package-gnupghome-dir nil) ;; this line not effect anyting?
+(setq package-check-signature nil)
+
 (package-initialize)
 
 (require-package 'diminish)

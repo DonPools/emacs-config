@@ -44,6 +44,7 @@
 (global-set-key (kbd "C-j") 'default-indent-new-line)
 (global-set-key (kbd "C-h") 'delete-backward-char)
 (global-set-key (kbd "C-x ?") 'help-command)
+(global-set-key (kbd "C-t") 'pop-tag-mark)
 
 
 (setq frame-title-format

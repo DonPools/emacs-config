@@ -10,10 +10,6 @@
 
 (add-to-list 'load-path (expand-file-name "init" user-emacs-directory))
 
-;; disable because of elpa bug in emacs 27.1
-(setq package-gnupghome-dir nil) ;; this line not effect anyting?
-(setq package-check-signature nil)
-
 (defconst *is-a-mac* (eq system-type 'darwin))
 
 (require 'init-package)
@@ -36,6 +32,8 @@
 (require 'init-projectile)
 
 (require 'init-markdown-mode)
+(require 'init-go)
+
 
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (when (file-exists-p custom-file)

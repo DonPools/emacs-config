@@ -12,6 +12,7 @@ url
 ede-projects.el
 .DS_Store
 places
+.lsp-session*
 .smex-items
 savefile/
 projectile-bookmarks.eld
