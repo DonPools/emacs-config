@@ -32,7 +32,9 @@
 (require 'init-projectile)
 
 (require 'init-markdown-mode)
+(require 'init-org)
 (require 'init-go)
+(require 'init-javascript)
 
 
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
