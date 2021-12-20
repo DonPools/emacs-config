@@ -1,6 +1,5 @@
 (when (< emacs-major-version 24)
   (require-package 'org))
-(require-package 'org-fstree)
 
 (setq org-src-fontify-natively t)
 
