@@ -22,6 +22,7 @@
 
   (local-set-key (kbd "C-c C-b") 'pop-tag-mark)
   (local-set-key (kbd "C-c t") 'go-test-current-file)
+  (setq indent-tabs-mode 1)
   (setq tab-width 4))
 
 (add-hook 'project-find-functions #'project-find-go-module)
