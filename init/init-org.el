@@ -117,6 +117,7 @@
      (sh . t)
      (sql . nil)
      (sqlite . t)
+     (go . t)
      )))
 
 (provide 'init-org)
